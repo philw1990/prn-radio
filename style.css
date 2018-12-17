@@ -1,0 +1,79 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, fr)
+}
+
+
+
+#title{
+    font-family: 'Staatliches', cursive;
+    font-size: 120px;
+    color: white;
+    letter-spacing: 6px;
+    text-align: center;
+    margin: auto;
+}
+
+#ostervala{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    color: white;
+    letter-spacing: 8px;
+    text-align: center;
+    margin: auto auto 0 auto;
+    padding: 0px 0px 30px 0px;
+}
+
+.stuff{
+    margin: auto;
+}
+
+body, html{
+    height: 100%;
+    display: grid;
+    background-image: url('background-image2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#description{
+    width:600px;
+    font-family: 'Raleway', serif;
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 30%;
+    margin: auto;
+    grid-row: 5 / 7;
+}
+
+.buttons{
+    margin: 0 auto 0 auto;
+}
+
+.podcast{
+    
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 30px;
+    background-color: white;
+    margin: 0 5px 0 0;
+}
+
+.listen-now{
+    border: 2px solid white;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 30px;
+    background-color: transparent;
+    margin: 0 0 0 5px;
+}
+
+
+
+  
